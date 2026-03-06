@@ -6,7 +6,7 @@ Cloudflareのドメイン関係の設定はとにかくいろいろできて便�
 
 ## メールのリダイレクト
 
-![Email Routing](https://github.com/user-attachments/assets/92cacfc3-0cd2-42af-a936-c1db0ca786d3)
+![Email Routing](https://www.moonutopia.com/img/cloudflare-mx.jpg)
 
 Email Routingから設定。
 
@@ -30,7 +30,7 @@ wwwなしのAレコードに192.0.2.1を設定。
 
 ### ルールの設定
 
-![Redirect rule](https://github.com/user-attachments/assets/94286ccf-03a5-4f08-916e-63639279ac08)
+![Redirect rule](https://www.moonutopia.com/img/cloudflare.jpg)
 
 リクエストURLに`https://example.com*`、ターゲットURLに`https://www.example.com${1}`を設定。
 
